@@ -29,5 +29,13 @@ public class Main {
         * Az eredményt kiirattam a konzolra.*/
         int radius = 6;
         System.out.println("A(z) " + radius + " sugarú gömb térfogata: " + (4 * Math.PI * Math.pow(radius, 3)) / 3);
+
+        /* Deklaráltam int típusú változókba a celsiust és a fahrenheitet, majd ezzel a képlettel kiszámoltam az átváltást:
+        T(°F) = T(°C) × 1.8 + 32, az eredményt kiirattam a konzolra.*/
+
+        int celsius = 10;
+        System.out.println(celsius + " celsius = " + ((celsius * 1.8) + 32) + " fahrenheit");
+        int fahrenheit = 70;
+        System.out.println(fahrenheit + " fahreheit = " + ((fahrenheit - 32) / 1.8) + " celsius");
     }
 }
