@@ -14,5 +14,15 @@ public class Main {
 
         System.out.println("A téglalap területe: " + area + " cm^2 .\nA téglalap kerülete: " + perimeter + " cm");
 
+/* Egy int típusú változóba deklaráltam az átváltani kívánt decilitert,
+ majd átváltottam a megadott mértékegységekbe és kiirattam a konzolra.*/
+
+        int dl=23;
+        System.out.println(dl+" dl = "+dl*100+" ml");
+        System.out.println(dl+" dl = "+dl*10+" cl");
+        System.out.println(dl+" dl = "+dl*0.1+" l");
+        System.out.println(dl+" dl = "+dl*0.001+" hl");
+        
+
     }
 }
