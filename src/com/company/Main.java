@@ -37,5 +37,9 @@ public class Main {
         System.out.println(celsius + " celsius = " + ((celsius * 1.8) + 32) + " fahrenheit");
         int fahrenheit = 70;
         System.out.println(fahrenheit + " fahreheit = " + ((fahrenheit - 32) / 1.8) + " celsius");
+
+        /*Kiirattam a kívánt szöveget, új sorra \n használtam, tabulátorra a \t -t.*/
+        System.out.println("************\n* Hello \t*\n* World \t*\n* in    \t*\n* a     \t*\n* frame \t*\n************");
+
     }
 }
