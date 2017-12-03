@@ -41,5 +41,9 @@ public class Main {
         /*Kiirattam a kívánt szöveget, új sorra \n használtam, tabulátorra a \t -t.*/
         System.out.println("************\n* Hello \t*\n* World \t*\n* in    \t*\n* a     \t*\n* frame \t*\n************");
 
+        /*Egy char típusú változó értékét int típusra kasztoltam, kiirattam a konzolra.*/
+        char character = 'w';
+        System.out.println("A " + character + " karakter Ascii kódja: " + (int) character);
+
     }
 }
